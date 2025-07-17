@@ -6,14 +6,14 @@ This is a **State Machine API** built with .NET 8 for the Infonetica assignment.
 
 ## Features
 
-✅ **Create Workflow Definitions** - Define states (initial, final, enabled) and actions (transitions)  
-✅ **Start Workflow Instances** - Create instances that track current state and history  
-✅ **Execute Actions** - Transition between states with validation  
-✅ **State Management** - Proper handling of initial states, final states, and enabled/disabled states  
-✅ **Action Validation** - Ensures actions are valid from current state  
-✅ **History Tracking** - Full audit trail of all state transitions  
-✅ **Swagger Documentation** - Interactive API documentation  
-✅ **In-Memory Storage** - No database required (as per assignment requirements)
+**Create Workflow Definitions** - Define states (initial, final, enabled) and actions (transitions)  
+**Start Workflow Instances** - Create instances that track current state and history  
+**Execute Actions** - Transition between states with validation  
+**State Management** - Proper handling of initial states, final states, and enabled/disabled states  
+**Action Validation** - Ensures actions are valid from current state  
+**History Tracking** - Full audit trail of all state transitions  
+**Swagger Documentation** - Interactive API documentation  
+**In-Memory Storage** - No database required (as per assignment requirements)
 
 ## Quick Start
 
@@ -204,6 +204,7 @@ The API provides clear error messages for:
 - Persistent storage (database)
 - Workflow versioning
 - Conditional transitions
+- Crud operations for workflow, instances or actions
 - Parallel execution paths
 - Workflow templates
 - User authentication
